@@ -1,0 +1,133 @@
+/* Start: About us page */
+#about-us-page .about-us-heading {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 75px;
+}
+
+#about-us-page .about-us-info {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px;
+}
+
+#about-us-page .about-us-image {
+    text-align: center;
+}
+
+#about-us-page .abs {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+#about-us-page .guarantee {
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+#about-us-page .about-us-number {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#about-us-page .experience {
+    text-align: center;
+    padding-right: 50px;
+}
+
+#about-us-page .happy-client {
+    text-align: center;
+    padding-right: 50px;
+}
+
+#about-us-page .product-saled {
+    text-align: center;
+}
+
+#about-us-page .number {
+    font-size: 25px;
+    font-family: cursive;
+    padding-bottom: 20px;
+}
+
+#about-us-page .word {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 50%;
+}
+
+#about-us-page .about-us-archive {
+    text-align: center;
+    display: flex;
+    padding-top: 60px;
+    justify-content: center;
+}
+
+#about-us-page .ti-headphone-alt,
+#about-us-page .ti-check,
+#about-us-page .ti-truck,
+#about-us-page .ti-cup {
+    font-size: 50px;
+    padding-right: 10px;
+}
+
+#about-us-page .archive-word {
+    padding-top: 5px;
+}
+#about-us-page .big-word {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+}
+
+#about-us-page .small-word {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 50%;
+}
+
+#about-us-page .other-info {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#about-us-page .introduce {
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+#about-us-page .members2,
+#about-us-page .members1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#about-us-page .members-info {
+    padding-left: 29px;
+}
+
+#about-us-page .members-image {
+    height: 360px;
+    width: 394px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#about-us-page .members-name {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about-us-page .position {
+    font-size: 16px;
+    opacity: 50%;
+}
+/* End: About us page */

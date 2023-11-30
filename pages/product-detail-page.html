@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts/components.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../styles/components.css">
+    <link rel="stylesheet" href="../styles/product-detail-page.css">
+    <title>IE104</title>
+</head>
+<body>   
+    
+    <script>addHeader()</script>
+
+    <main>
+
+        <section id="product-detail-page">
+            <div class="navigation-product-detail">
+                <div class="navigation-bar">
+                    <i class="ti-arrow-left"></i>
+                    <br>
+                    <br>
+                    <div class="image-number">
+                        <div class="big-number">
+                            01
+                        </div>
+                        <div class="small-number">
+                            / 05
+                        </div>
+
+                    </div>
+                    <br>
+                    <div class="text-nav">
+                        <div class="blur-text">Sofa</div>
+                        <p>/</p>
+                        <div class="normal-text">The Chelsea</div>
+                    </div>
+                </div>
+                <div class="move-left-right">
+                    <i class="ti-angle-left"></i>
+                    <i class="ti-angle-right"></i>
+                </div>
+            </div>
+
+            <div class="product-name">
+                The Chelsea
+            </div>
+
+            <div class="product-image">
+                <img class="big-image" src="../assets/Furniture_Photos/Products_Photos/P0045/1.webp" alt="">
+            </div>
+
+            <div class="price-rate">
+                <div class="product-price">
+                    $3,725
+                </div>
+                <div class="product-rate">
+                    <div class="yellow-star">
+                        <i class="ti-star"></i>
+                        <i class="ti-star"></i>
+                        <i class="ti-star"></i>
+                        <i class="ti-star"></i>
+                    </div>
+                    <div class="white-star">
+                        <i class="ti-star"></i>
+                    </div>
+                    <div class="rate">
+                        <div class="number-rate">4.0 / 5.0</div>
+                        <div class="blur-number-rate">(221)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-product">
+                With fluid lines and sensual curves, The Chelsea Sofa pays <br>
+                tribute to the softer side of mid-century design. The U- <br>
+                shaped silhouette and wraparound arms subtly embrace, <br>
+                while a tightly upholstered seat and back lend polish.
+            </div>
+
+            <div class="quantity-add-product">
+                <div class="add-minus-button">
+                    <button class="ti-minus" onclick="decreasequan(this)"></button>
+                    <div class="quantity">1</div>
+                    <button class="ti-plus" onclick="increasequan(this)"></button>
+                </div>
+                <div class="add-product" onclick="addtocart(this)">
+                    <button class="add-product-button" >
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+
+            <div class="product-notes">
+                •  Ready for delivery in 8–9 weeks. <br>
+                •  Free shipping in HCM city. <br>
+                •  Tool-free assembly .
+            </div>
+
+            <div class="content-detail-image">
+                <i class="ti-heart"></i> Add to wishlist 
+                <i class="ti-reload"></i> Add to Compare 
+                <div class="share">Share Product: 
+                    <i class="ti-share"></i>
+                    <i class="ti-twitter"></i>
+                    <i class="ti-pinterest"></i>
+                    <i class="ti-instagram"></i>
+                </div>
+
+                <div class="detail-image">
+                    <div class="border-first-img">
+                        <img class="first-img" src="../assets/Furniture_Photos/Products_Photos/P0045/2.webp" alt="">
+                    </div>
+                    <div class="border-others-img">
+                        <img class="others-img" src="../assets/Furniture_Photos/Products_Photos/P0045/3.webp" alt="">
+                    </div>
+                    <div class="border-others-img">
+                        <img class="others-img" src="../assets/Furniture_Photos/Products_Photos/P0045/4.webp" alt="">
+                    </div>
+                    <div class="border-others-img">
+                        <img class="others-img" src="../assets/Furniture_Photos/Products_Photos/P0045/5.webp" alt="">
+                    </div>
+                    <div class="border-others-img">
+                        <img class="others-img" src="../assets/Furniture_Photos/Products_Photos/P0045/2.webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="warranty">
+                <div class="blur-text-wh">Warranty</div>
+                <div class="normal-text-wh">
+                    The product comes with a 12 month warranty against any manufacturing defects and <br>
+                    any other issues with the materials that have been used.
+                </div>
+            </div>
+
+            <div class="highlights">
+                <div class="blur-text-wh">Highlights</div>
+                <div class="highlights-details">
+                    <div class="details">
+                        <i class="ti-control-record"></i>
+                        <div class="normal-text-wh">
+                            Material: Engineered Wood
+                        </div>
+                    </div>
+                    <div class="details">
+                        <i class="ti-control-record"></i>
+                        <div class="normal-text-wh">
+                            Upholstery Included
+                        </div>
+                    </div>
+                    <div class="details">
+                        <i class="ti-control-record"></i>
+                        <div class="normal-text-wh">
+                            W x H x D: 90” x 28.75” x 36.5” 
+                        </div>
+                    </div>
+                    <div class="details">
+                        <i class="ti-control-record"></i>
+                        <div class="normal-text-wh">
+                            Weight: 86 kg
+                        </div>
+                    </div>
+                    <div class="details">
+                        <i class="ti-control-record"></i>
+                        <div class="normal-text-wh">
+                            Knock Down - Delivered in non-assembled pieces, installation by service partner
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script>addToTop()</script>
+    </main>
+
+    <script>addFooter()</script>
+    <script src="../scripts/product-detail-page.js"></script>
+    <script src="../scripts/function.js"></script>
+</body>
+
+</html>

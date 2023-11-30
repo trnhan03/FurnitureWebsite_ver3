@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts/components.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../styles/components.css">
+    <link rel="stylesheet" href="../styles/products-page.css">
+    <title>IE104</title>
+</head>
+<body>  
+    
+    
+    <script>addHeader()</script>
+    <main>
+
+        <section id="products-page">
+            <div class="background-img">
+                <img src="../assets/Furniture_Photos/Background_Photos/Bedroom_Screen/Main_Photo/Bed.webp" alt="Bedroom">
+            </div>
+    
+            <div class="lable">
+                <p class="lable-text">CATEGORY</p>
+                <div class="lable-source">
+                    <a href="">BEDROOM</a>
+                    <a href=""></a>
+                </div>
+                <div class="lable-sort-by">
+                    <div class="lable-sort-by-title">
+                        <p>Sort by:</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="">
+                                Name: A-Z
+                                <i class="ti-angle-down"></i>
+                            </a>
+                            <ul class="lable-subnav">
+                                <li><a href="">Best Seller</a></li>
+                                <li><a href="">Price: Low-High</a></li>
+                                <li><a href="">Price: High-Low</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="product">
+                <div class="vertical-navigation">
+                    <ul id="product-category">
+                        <li>
+                            <a href="">
+                                BEDROOM
+                                <i class="ti-angle-down"></i>
+                            </a>
+                            <ul class="vertical-subnav">
+                                <li><a href="">Beds</a></li>
+                                <li><a href="">Nightstands & Dressers</a></li>
+                                <li><a href="">Accent Tables</a></li>
+                                <li><a href="">Chairs</a></li>
+                                <li><a href="">Benches & Ottomans</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">
+                                LIVING ROOM
+                                <i class="ti-angle-down"></i>
+                            </a>
+                            <ul class="vertical-subnav">
+                                <li><a href="">Sofas</a></li>
+                                <li><a href="">Sectionals</a></li>
+                                <li><a href="">Accent Tables </a></li>
+                                <li><a href="">Chairs</a></li>
+                                <li><a href="">Benches & Ottomans</a></li>
+                                <li><a href="">Offices</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">DINING</a></li>
+                    </ul>
+                </div>
+                
+                <div class="product-bed">
+                    <div class="product-1" onclick="goTo('product-detail-page.html')">
+                        <img src="../assets/Furniture_Photos/Products_Photos/P0007/1.webp" alt="The Eldridge Bed" class="product-img">
+                        <div class="product-intro">
+                            <p class="product-name">The Eldridge Bed</p>
+                            <p class="product-cost">$3,885</p>
+                        </div>
+                    </div>
+                    <div class="product-1"> 
+                        <img src="../assets/Furniture_Photos/Products_Photos/P0008/1.webp" alt="The Essex Bed" class="product-img">
+                        <div class="product-intro">
+                            <p class="product-name">The Essex Bed</p>
+                            <p class="product-cost">$3,885</p>
+                        </div>
+                    </div>
+                    <div class="product-1">
+                        <img src="../assets/Furniture_Photos/Products_Photos/P0009/1.webp" alt="The Kent Bed" class="product-img">
+                        <div class="product-intro">
+                            <p class="product-name">The Kent Bed</p>
+                            <p class="product-cost">$3,885</p>
+                        </div>
+                    </div>
+    
+                    <div class="product-1">
+                        <img src="../assets/Furniture_Photos/Products_Photos/P0010/1.webp" alt="The Smith Bed" class="product-img">
+                        <div class="product-intro">
+                            <p class="product-name">The Smith Bed</p>
+                            <p class="product-cost">$3,885</p>
+                        </div>
+                    </div>
+                    <div class="product-1">
+                        <img src="../assets/Furniture_Photos/Products_Photos/P0011/1.webp" alt="The Thompson Canopy Bed" class="product-img">
+                        <div class="product-intro">
+                            <p class="product-name">The Thompson Canopy Bed</p>
+                            <p class="product-cost">$3,885</p>
+                        </div>
+                    </div>
+                    <div class="product-1">
+                        <img src="../assets/Furniture_Photos/Products_Photos/P0012/1.webp" alt="The Wythe Bed" class="product-img">
+                        <div class="product-intro">
+                            <p class="product-name">The Wythe Bed</p>
+                            <p class="product-cost">$3,885</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="sample">
+                <p class="sample-text">Get Inspired</p>
+            </div>
+            <div class="sample-bedroom">
+                <img src="../assets/Furniture_Photos/Background_Photos/Bedroom_Screen/Inspired/1.webp" alt="Sample 1" class="sample-img1">
+                <img src="../assets/Furniture_Photos/Background_Photos/Bedroom_Screen/Inspired/2.webp" alt="Sample 2" class="sample-img2">
+                <img src="../assets/Furniture_Photos/Background_Photos/Bedroom_Screen/Inspired/3.webp" alt="Sample 3" class="sample-img3">
+            </div>
+        </section>
+        <script>addToTop()</script>
+    </main>
+
+    <script>addFooter()</script>
+    <script src="../scripts/function.js"></script>
+</body>
+
+</html>

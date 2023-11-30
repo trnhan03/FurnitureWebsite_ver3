@@ -1,0 +1,129 @@
+/* Start: Product Management Screen */
+
+#products-management-screen {
+    display: flex;
+}
+
+#products-management-screen .management-menu {
+    margin-left: 10%; 
+    margin-top: 10vh;
+}
+
+#products-management-screen .management-menu ul {
+    background-color: #FFF;
+    width: 334px;
+    list-style-type: none;
+}
+
+#products-management-screen .management-menu li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    padding: 0 1em;
+}
+
+.management-menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    line-height: 40px;
+    font-weight: 500;
+}
+.management-menu li:first-child {
+    border-top: 1px solid #000;
+}
+
+.management-menu li:nth-child(2)  {
+    background-color:#FFF0CB;
+}
+
+.management-menu li:nth-child(2) a {
+    color: #B48400;
+}
+
+.management-menu li:hover {
+    background-color:#FFF0CB;
+}
+
+#products-management-screen .products-main {
+    margin-top: 15vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#products-management-screen .products-info input {
+    width: 220px;
+    height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+#products-management-screen .product-tags {
+    opacity: 35%;
+    padding-left: 78px;
+}
+
+.products-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products-info .id,
+.products-info .user-name {
+    margin-right: 5em;
+}
+
+.products-main .products-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-button button {
+    background-color: #FFF7E4;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    border: 0.4px solid #000;
+    border-radius: 7px;
+    margin: 3vh;
+}
+
+.products-detail .detail-info {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.products-detail .detail-info table, tr, td {
+    border: 2px solid #000;
+    padding: 5px;
+    background-color: #FFF;
+}
+
+.products-detail .detail-info thead td {
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+.products-detail .detail-info button {
+    border-radius: 5px;
+    border: 0.5px solid #000;
+}
+
+.products-detail .detail-info .delete-button {
+    background-color: #FFF7E4;
+}
+
+.products-detail .detail-info .changes-button {
+    background-color: #FFF;
+}
+
+/* End: Product Management Screen */

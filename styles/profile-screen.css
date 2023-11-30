@@ -1,0 +1,90 @@
+/* Start: Profile screen */
+#profile-screen .address-pass,
+#profile-screen .info,
+#profile-screen .name {
+    display: flex;
+    gap: 228px;
+    justify-content: center;
+}
+
+#profile-screen .first-name {
+    /* padding-left: 309px; */
+}
+
+#profile-screen .profile-title {
+    color: #B48400;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding-left: 309px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#profile-screen .input-text {
+    border: 0.2px solid #000;
+    background: #FFF;
+    width: 342px;
+    height: 38px;
+    opacity: 0.5;
+}
+
+#profile-screen .text {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 9px;
+}
+
+#profile-screen .email {
+    /* padding-left: 309px; */
+    padding-top: 40px;
+}
+
+#profile-screen .phone-number {
+    padding-top: 40px;
+}
+
+#profile-screen .address {
+    /* padding-left: 309px; */
+    padding-top: 40px;
+}
+
+#profile-screen .password {
+    padding-top: 40px;
+}
+
+#profile-screen .button-profile {
+    width: 220px;
+    height: 56px;
+    background-color: #FFF7E4;
+    border-radius: 9px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+#profile-screen .update-pass {
+    padding-top: 46px;
+}
+
+#profile-screen .button-update-pass {
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+}
+
+#profile-screen .button-profile:hover {
+    background-color: #f2c96a;
+}
+
+/* End: Profile screen */

@@ -1,0 +1,87 @@
+/* Star: Sign up Screen */
+#sign-up-sreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-img img {
+    flex: 1;
+    width: 624px;
+    height: 351px;
+    marGIN: 50px;
+}
+
+.sign-up {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.sign-up h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.sign-up-info {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+    padding: 35px 0;
+}
+
+.sign-up-info input {
+    margin-bottom: 10px;
+    padding: 12px;
+    text-align: left;
+    width: 420px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    border: 0.4px solid rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.sign-up-button {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; 
+}
+
+.sign-up-button button {
+    margin-bottom: 10px;
+    padding: 17px;
+    text-align: center;
+    width: 420px;
+    font-size: 18px;
+    border-radius: 9px;
+    border: 0.4px solid rgba(0, 0, 0, 0.7);
+}
+
+.create-account-button button {
+    background-color: #FFE7AD;
+}
+
+.sign-up-gg-button button,
+.sign-up-fb-button button {
+    background-color: #fff;
+}
+
+.sign-up-button button:hover {
+    border-width: 2px;
+}
+
+.login-link {
+    display: flex;
+    text-align: center;
+}
+
+.login-link a {
+    padding-left: 10px;
+    color: #000;
+}
+
+.login-link a:hover {
+    color: rgb(103, 103, 255);
+}
+/* End: Sign up screen */

@@ -1,0 +1,155 @@
+/* Start: Billing detail page */
+#billing-detail-page {
+    height: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+#billing-detail-page .billing-detail-title{
+    font-size: 48px;
+    text-align: center;
+    padding: 75px 0px;
+}
+
+#billing-detail-page .shipment{
+    height: 100%;
+    margin: 0 16%;
+    display: flex;
+}
+
+#billing-detail-page .customer-information{
+    width: 50%;
+}
+
+#billing-detail-page .customer-information .info-textfield{
+    margin-bottom: 20px;
+}
+
+#billing-detail-page .customer-information .info-textfield label{
+    color: #000;
+    opacity: 0.5;
+}
+
+#billing-detail-page .customer-information .info-textfield input{
+    width: 100%;
+    background-color: #f5f5f5;
+    height: 32px;
+    margin-top: 4px;
+}
+
+#billing-detail-page .customer-information .save-info-checkbox{
+    height: 40px;
+}
+
+#billing-detail-page .customer-information .save-info-checkbox input{
+    margin-right: 10px;
+}
+
+#billing-detail-page .customer-information .save-info-checkbox label{
+    margin: auto 0;
+}
+
+#billing-detail-page .shipment-information{
+    width: 50%;
+    display: inline-block;
+    margin-left: 200px;
+}
+
+#billing-detail-page .shipment-information .shipment-products{
+
+}
+
+#billing-detail-page .shipment-information .shipment-product{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+    /* border-bottom-style: solid;
+    border-width: 1px; */
+}
+
+#billing-detail-page .shipment-product .shipment-product-image{
+    margin-right: 20px;
+}
+
+#billing-detail-page .shipment-product .shipment-product-name{
+    margin: auto 0;
+    width: 60%;
+}
+
+#billing-detail-page .shipment-product .shipment-product-price{
+    width: 100%;
+    text-align: right;
+    margin: auto 0;
+}
+
+#billing-detail-page .shipment-product .shipment-product-image{
+    height: 50px;
+    border-radius: 12px;
+}
+
+#billing-detail-page .shipment-information .shipment-price{
+    
+}
+
+#billing-detail-page .shipment-price .shipment-subtotal,
+#billing-detail-page .shipment-price .shipment-shipping,
+#billing-detail-page .shipment-price .shipment-total{
+    display: flex;
+    padding: 10px 0;
+}
+
+#billing-detail-page .shipment-price .shipment-shipping{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+#billing-detail-page .shipment-price .shipment-title{
+}
+
+#billing-detail-page .shipment-price .shipment-price{
+    width: 100%;
+    text-align: right;
+}
+
+#billing-detail-page .shipment-information .payment-methods{
+    margin-top: 20px;
+}
+
+#billing-detail-page .shipment-information .voucher{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#billing-detail-page .voucher .voucher-input{
+    margin-right: 20px;
+    border-radius: 12px;
+    padding-left: 10px;
+    width: 50%;
+    font-size: 20px;
+}
+
+#billing-detail-page .voucher .voucher-button{
+}
+
+#billing-detail-page .voucher .voucher-button button{
+    background-color: #93cfa4;
+    padding: 8px 20px;
+    font-weight: 800;
+    border-radius: 12px;
+    font-size: 16px;
+    width: 100%;
+}
+
+#billing-detail-page .place-order-button button,
+#billing-detail-page .back-to-cart-button button{
+    width: 40%;
+    background-color: #93cfa4;
+    padding: 10px 16px;
+    font-weight: 800;
+    border-radius: 12px;
+    margin-top: 24px;
+}
+
+/* End: Billing detail page */

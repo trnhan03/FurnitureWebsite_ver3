@@ -1,0 +1,101 @@
+/* Start: Pay by Card */
+#pay-by-card-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;            
+}
+
+#pay-by-card-screen .card-wrapper {
+    width: 46%;
+}
+
+#pay-by-card-screen .card-wrapper .card-box {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 16px;
+    background-color: #FFF7E4;
+}
+
+.title-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title-card i {
+    margin-right: 10px;
+}
+
+.card-bank, .card-number, .card-expiry {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card-bank p, .card-number p, .card-expiry p {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.card-bank select,
+.card-expiry select,
+.card-number input {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 46px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.card-bank select {
+    width: 50%;
+}
+
+.card-number input {
+    width: 50%;
+}
+
+.card-expiry select {
+    width: 15%;
+}
+
+.card-bank-title,
+.card-nuber-title,
+.card-expiry-title {
+    width: 50%;
+}
+
+.card-wrapper .set-card-default {
+    display: flex;
+    justify-content: right;
+    padding: 10px 20px;
+}
+
+.card-wrapper .set-card-default input {
+    margin-right: 1em;
+}
+
+.card-wrapper .pay-by-card-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-wrapper .pay-by-card-button button {
+    height: 56px;
+    width: 188px;
+    margin-left: 30px;
+    border-radius: 9px;
+    font-size: 18px;
+}
+
+.card-wrapper .pay-by-card-button .card-back-button {
+    background-color: #fff;
+}
+
+.card-wrapper .pay-by-card-button .card-pay-button {
+    background-color: #FFF7E4;
+}
+/* End: Pay by Card */

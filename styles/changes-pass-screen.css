@@ -1,0 +1,91 @@
+/* Start: Changes Password Screen */
+#changes-pass-screen .changes-pass-title {
+    color: #B48400;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding-left: 309px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#changes-pass-screen .input-text {
+    border: 0.2px solid #000;
+    background: #FFF;
+    width: 342px;
+    height: 38px;
+    opacity: 0.5;
+}
+
+#changes-pass-screen .password-changes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#changes-pass-screen .password-changes a {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#changes-pass-screen .password-changes a:hover {
+    color: #3aa39f;
+}
+
+#changes-pass-screen .button-update {
+    width: 220px;
+    height: 56px;
+    background-color: #FFF7E4;
+    border-radius: 9px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    border: 0.4px solid;
+}
+
+#changes-pass-screen .button-cancel {
+    width: 220px;
+    height: 56px;
+    background-color: white;
+    border-radius: 9px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    border: 0.4px solid;
+}
+
+#changes-pass-screen .update-cancel {
+    padding-top: 46px;
+}
+
+#changes-pass-screen .button-update-cancel {
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+}
+
+#changes-pass-screen .button-update:hover {
+    background-color: #f2c96a;
+}
+/* End: Changes Password Screen */

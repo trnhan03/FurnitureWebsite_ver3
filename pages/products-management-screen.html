@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts/components.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../styles/components.css">
+    <link rel="stylesheet" href="../styles/products-management-screen.css">
+    <title>IE104</title>
+</head>
+<body>  
+    
+    
+    <script>addHeader()</script>
+
+    <main>
+
+        <section id="products-management-screen">
+            <div class="management-menu">
+                <ul>
+                    <li><a href="">Transportation management</a></li>
+                    <li><a href="">Products management</a></li>
+                    <li><a href="">Revenue management</a></li>
+                    <li><a href="">User management</a></li>
+                </ul>
+            </div>
+
+            <div class="products-main">
+                <div class="products-info">
+                    <div class="products-name">
+                        Name
+                        <input type="text" value="Name Product">
+                    </div>
+                    <div class="product-tags">
+                        <select>
+                            <option value="">All</option>
+                            <option value="">Bedroom</option>
+                            <option value="">Dining Room</option>
+                            <option value="">Living Room</option>
+                            <option value="">Acents Table</option>
+                            <option value="">Beds</option>
+                            <option value="">Benches & Ottomans</option>
+                            <option value="">Chairs</option>
+                            <option value="">Nightstands & Dressers</option>
+                            <option value="">Tables</option>
+                            <option value="">Stools</option>
+                            <option value="">Sectionals</option>
+                            <option value="">Sofas</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="products-button">
+                    <button class="find-products">Find</button>
+                    <button class="new-products">New Product</button>
+                </div>
+
+                <div class="products-detail">
+                    <table class="detail-info">
+                        <thead>
+                            <tr>
+                                <td>Product Name</td>
+                                <td>Quantity</td>
+                                <td>Category</td>
+                                <td>Price</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="product-info">
+                                <td class="Product name">The Chelsea</td>
+                                <td class="Quantity">10</td>
+                                <td class="Category">100</td>
+                                <td class="Price">3,725$</td>
+                                <td class="product-actions">
+                                    <button class="delete-button" onclick="toggleModalStaff()">Delete</button>
+                                    <button class="changes-button" onclick="toggleModalStaff()">Changes</button>                                </td>
+                            </tr>
+                            <tr class="product-info-row">
+                                <td class="Product name">The Arsenal</td>
+                                <td class="Quantity">20</td>
+                                <td class="Category">200</td>
+                                <td class="Price">4,725$</td>
+                                <td class="product-actions">
+                                    <button class="delete-button" onclick="toggleModalStaff()">Delete</button>
+                                    <button class="changes-button" onclick="toggleModalStaff()">Changes</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <script>addToTop()</script>
+    </main>
+
+    <script>addFooter()</script>
+    <script src="../scripts/function.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+/* Start: Shop all */
+.cate-product {
+    padding-left: 141px;
+    padding-top: 56px;
+}
+
+.cate-prd {
+    margin-right: 38px;
+    display: inline-block;
+    padding-bottom: 46px;
+  }
+  
+.wall-img {
+    width: 605px;
+    height: 340px;
+}
+
+.cate-product-title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.cate-name {
+    font-size: 26px;
+    line-height: 56px;
+}
+
+.button-shop {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 16px 48px;
+    border: 1px solid black;
+    border-radius: 1cap;
+}
+
+.button-shop:hover {
+    cursor: pointer;
+    background-color: #FFE3DA;
+}
+/* End: Shop all */

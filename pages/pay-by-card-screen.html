@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts/components.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../styles/components.css">
+    <link rel="stylesheet" href="../styles/pay-by-card-screen.css">
+    <title>IE104</title>
+</head>
+<body>  
+    
+    <script>addHeader()</script>
+
+    <main>
+    
+        <section id="pay-by-card-screen">
+            <div class="card-wrapper">
+                <div class="card-box">
+                    <div class="title-card">
+                        <i class="ti-credit-card"></i>
+                        <h3>Add card</h3>
+                    </div>
+        
+                    <div class="card-bank">
+                        <div class="card-bank-title">
+                            <p>Bank</p>
+                            <h5>Choose the name of the bank</h5>
+                        </div>
+                        <select name="bank" id="name-of-bank">
+                            <option value="ACB">ACB</option>
+                            <option value="Agribank">Agribank</option>
+                            <option value="BIDV">BIDV</option>
+                            <option value="MB Bank">MB Bank</option>
+                            <option value="Techcombank">Techcombank</option>
+                            <option value="TP Bank">TP Bank</option>
+                            <option value="Sacombank">Sacombank</option>
+                            <option value="Vietinbank">Vietinbank</option>
+                            <option value="VPBank">VPBank</option>
+                        </select>
+                    </div>
+        
+                    <div class="card-number">
+                        <div class="card-nuber-title">
+                            <p>Card number</p>
+                            <h5>Enter the card number on the card</h5>
+                        </div>
+                        <input type="text" id="card-number-of-bank">
+                    </div>
+        
+                    <div class="card-expiry">
+                        <div class="card-expiry-title">
+                            <p>Expiry date</p>
+                            <h5>Enter the expiration date on the card</h5>
+                        </div>
+                        <select name="month" id="card-month">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <select name="month" id="card-year">
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="set-card-default">
+                    <input type="checkbox" id="check-default">
+                    <p>Set as default</p>
+                </div>
+    
+                <div class="pay-by-card-button">
+                    <button class="card-back-button">Back</button>
+                    <button class="card-pay-button">Pay</button>
+                </div>
+            </div>
+        </section>
+        <script>addToTop()</script>
+        
+    </main>
+
+    <script>addFooter()</script>
+    <script src="../scripts/function.js"></script>
+</body>
+
+</html>

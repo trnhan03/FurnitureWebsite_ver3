@@ -1,0 +1,101 @@
+/* Start: Edit Profile Screen */
+#edit-profile-screen .info,
+#edit-profile-screen .name {
+    display: flex;
+    gap: 228px;
+    justify-content: center;
+}
+
+#edit-profile-screen .first-name {
+    /* padding-left: 309px; */
+}
+
+#edit-profile-screen .edit-title {
+    color: #B48400;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding-left: 309px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#edit-profile-screen .input-text {
+    border: 0.2px solid #000;
+    background: #FFF;
+    width: 342px;
+    height: 38px;
+    opacity: 0.5;
+}
+
+#edit-profile-screen .text {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 9px;
+}
+
+#edit-profile-screen .email {
+    /* padding-left: 309px; */
+    padding-top: 40px;
+}
+
+#edit-profile-screen .phone-number {
+    padding-top: 40px;
+}
+
+#edit-profile-screen .address {
+    padding-left: 304px;
+    padding-top: 40px;
+}
+
+
+#edit-profile-screen .button-update {
+    width: 220px;
+    height: 56px;
+    background-color: #FFF7E4;
+    border-radius: 9px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    border: 0.4px solid;
+}
+
+#edit-profile-screen .button-cancel {
+    width: 220px;
+    height: 56px;
+    background-color: white;
+    border-radius: 9px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    border: 0.4px solid;
+}
+
+#edit-profile-screen .update-cancel {
+    padding-top: 46px;
+}
+
+#edit-profile-screen .button-update-cancel {
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+}
+
+#edit-profile-screen .button-update:hover {
+    background-color: #f2c96a;
+}
+/* End: Edit Profile Screen */

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../scripts/components.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../styles/components.css">
+    <link rel="stylesheet" href="../styles/billing-detail-page.css">
+    <title>IE104</title>
+</head>
+<body>  
+    
+    <script>addHeader()</script>
+
+    <main>
+
+        <section id="billing-detail-page">
+            <div class="billing-detail-content">
+                <div class="billing-detail-title">Billing Details</div> 
+                <div class="shipment">
+                    <div class="customer-information">
+                        <div class="info-textfield info-first-name">
+                            <label>First name: </label><br>
+                            <input type="text" id="first-name-input"><br>
+                        </div>
+                        
+                        <div class="info-textfield info-last-name">
+                            <label>Last name:</label><br>
+                            <input type="text" id="last-name-input"><br>
+                        </div>
+
+                        <div class="info-textfield info-address">
+                            <label>Street Address:</label><br>
+                            <input type="text" id="address-input"><br>
+                        </div>
+
+                        <div class="info-textfield info-apartment">
+                            <label>Apartment:</label><br>
+                            <input type="text" id="info-apartment-input"><br>
+                        </div>
+
+                        <div class="info-textfield info-city">
+                            <label>Town/City:</label><br>
+                            <input type="text" id="info-city-input"><br>
+                        </div>
+
+                        <div class="info-textfield info-phone-number">
+                            <label>Phone Number:</label><br>
+                            <input required="" type="text" id="numbers" name="text" autocomplete="off" class = "input" oninput="onPhoneNumberInput()"><br>
+                            <span id="numbers-message"></span>
+                        </div>
+
+                        <div class="info-textfield info-email">
+                            <label>Email:</label><br>
+                            <input required="" type="text" id="email-field" name="text" autocomplete="off" class = "input" oninput="onEmailInput()"><br>
+                            <span id="email-message"></span>
+                        </div>
+
+                        <div class="save-info-checkbox">
+                            <input type="checkbox">
+                            <label>Save this information for faster check-out next time</label><br>
+                        </div>
+                    </div>
+
+                    <div class="shipment-information">
+                        <div class="shipment-products">
+                            <div class="shipment-product">
+                                <img src="../img/0000_00532_b.jpg" alt="" class="shipment-product-image">
+                                <p class="shipment-product-name">The Vestry Tables</p>
+                                <div class="shipment-product-price">$1775</div>
+                            </div>
+                        </div>
+
+                        <div class="shipment-price">
+                            <div class="shipment-subtotal">
+                                <div class="shipment-title shipment-subtotal-title">Subtotal:</div>
+                                <div class="shipment-price shipment-subtotal-price">$1775</div>
+                            </div>
+
+                            <div class="shipment-shipping">
+                                <div class="shipment-title shipment-subtotal-title">Shipping:</div>
+                                <div class="shipment-price shipment-subtotal-price">Free</div>
+                            </div>
+
+                            <div class="shipment-total">
+                                <div class="shipment-title shipment-subtotal-title">Total:</div>
+                                <div class="shipment-price shipment-subtotal-price">$1775</div>
+                            </div>
+                        </div>
+
+                        <div class="payment-methods">
+                            <input type="radio" name="payment" style="margin-right: 10px;">
+                            <label>Bank</label><br>
+                            
+                            <input type="radio" name="payment" style="margin-right: 10px;">
+                            <label>Cash on delivery</label><br>
+                        </div>
+
+                        <div class="voucher">
+                            <input type="text" placeholder="Coupon Code" class="voucher-input">
+                            <div class="voucher-button">
+                                <button>Apply Coupon</button>
+                            </div>
+                        </div>
+
+                        <div class="place-order-button">
+                            <button onclick="generatePDF()">Place order</button>
+                        </div>
+
+                        <div class="back-to-cart-button">
+                            <button>Apply Coupon</button>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        
+        <script>addToTop()</script>
+    </main>
+
+    <script>addFooter()</script>
+    <script src="../scripts/function.js"></script>
+</body>
+
+</html>
