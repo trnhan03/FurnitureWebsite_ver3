@@ -60,7 +60,7 @@ function getProducts() {
                         </div>
 
                         <div class="check-out-button" >
-                            <button onclick="CheckSectionDisplay(5)"><span></span>Check-out</button>
+                            <button onclick="goTo('billing-detail-page.html')"><span></span>Check-out</button>
                         </div>
         </div>
         `
@@ -75,7 +75,7 @@ window.addEventListener('load', function() {
 
 //remove cart
 function removeCart(productt){
-    var products=[];
+    products=[];
     products=JSON.parse(localStorage.getItem("products"))
     products=products.filter(product=>product.productname!=productt);
     localStorage.setItem('products',JSON.stringify(products))
