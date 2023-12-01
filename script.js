@@ -35,9 +35,10 @@ function checkEmail() {
     }
 }
 function onEmailInput() {
-isEmailFilled = document.getElementById('email-field').value.trim() !== ''; // Cập nhật trạng thái nhập liệu email
-checkEmail();
+    isEmailFilled = document.getElementById('email-field').value.trim() !== ''; // Cập nhật trạng thái nhập liệu email
+    checkEmail();
 }
+
 // Check phone numbers
 var isSdtFilled = false; // Trạng thái nhập liệu số điện thoại
 function CheckPhoneNumbers() {

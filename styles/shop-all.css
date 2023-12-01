@@ -1,3 +1,10 @@
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Start: Shop all */
 .cate-product {
     padding-left: 141px;

@@ -15,10 +15,15 @@
     height: 80px;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.4);
     padding: 0 148px;
     z-index: 1;
 }
+
+#navigation.scrolled {
+    background-color: rgb(224, 223, 223);
+}
+
 
 #navigation .logo-navigation a {
     text-decoration: none;
